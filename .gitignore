@@ -1,0 +1,112 @@
+# Azure Multi-Tier Project .gitignore
+
+# SSH Keys 
+*.pem
+*.key
+*.pub
+id_rsa*
+azure_multitier_key*
+.ssh/
+
+# Azure Credentials
+*.publishsettings
+*.azureauth
+credentials.json
+service-principal.json
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# Build Output
+dist/
+build/
+out/
+target/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+
+node_modules/
+npm-debug.log*
+
+
+# Generated Documentation 
+nsg_configs/*.json
+deployment-info/*.json
+
+# Test Results
+connectivity_test_report.md
+test-results/
+coverage/
+
+# Secrets Scanner Results
+.secrets.baseline
+trufflehog-report.json
+
+# Azure Function Local Settings 
+local.settings.json
+
+# Package Manager Locks (commit these for reproducibility)
+# Uncomment if you want to ignore them:
+# package-lock.json
+# yarn.lock
+# Pipfile.lock
+
+# Cached Files
+.cache/
+*.cache
+
+# Backup Files
+*.backup
+*-backup
+backup/
+
+# Screenshots (if you want to keep them out of repo)
+# screenshots/
+# *.png
+# *.jpg
+
+# Private Notes
+NOTES.md
+TODO.md
+private/
+
+# Azure CLI Configuration (local only)
+.azure/
+
+# Keep these directories but ignore their contents except .gitkeep
+deployment-info/*
+!deployment-info/.gitkeep
+
+nsg_configs/*
+!nsg_configs/.gitkeep
+
+# Generated scripts (if auto-generated)
+# *-generated.sh
