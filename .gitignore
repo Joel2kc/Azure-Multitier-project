@@ -73,12 +73,6 @@ trufflehog-report.json
 # Azure Function Local Settings 
 local.settings.json
 
-# Package Manager Locks (commit these for reproducibility)
-# Uncomment if you want to ignore them:
-# package-lock.json
-# yarn.lock
-# Pipfile.lock
-
 # Cached Files
 .cache/
 *.cache
@@ -88,10 +82,6 @@ local.settings.json
 *-backup
 backup/
 
-# Screenshots (if you want to keep them out of repo)
-# screenshots/
-# *.png
-# *.jpg
 
 # Private Notes
 NOTES.md
