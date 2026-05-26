@@ -162,5 +162,3 @@ az group delete --name rg-multitier-prod --yes --no-wait
 6. Implement backup strategies
 
 ---
-**Generated**: Wed Nov  5 01:54:44 AM EST 2025
-**Deployment Script**: deploy.sh
